@@ -31,5 +31,5 @@ Frontmatter is read as top-level `key: value` pairs only; nested YAML blocks are
 ## Development
 
 ```bash
-node --test test/
+node --test
 ```
