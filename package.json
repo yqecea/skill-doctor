@@ -1,0 +1,12 @@
+{
+  "name": "skill-doctor",
+  "version": "0.1.0",
+  "description": "Lint agent skill directories across harness layouts (.claude, .agents, .pi, .codex, .gemini, .opencode)",
+  "type": "module",
+  "bin": { "skill-doctor": "src/cli.mjs" },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
