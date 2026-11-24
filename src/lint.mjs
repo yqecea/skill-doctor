@@ -3,7 +3,7 @@ import { basename, join, resolve } from "node:path"
 
 const SKILL_FILE = "SKILL.md"
 const SKIP_DIRS = new Set(["node_modules", ".git", "dist", "build", "coverage"])
-const SKILL_HOST_DIRS = new Set([".claude", ".agents", ".pi", ".codex", ".gemini", ".opencode"])
+const SKILL_HOST_DIRS = new Set([".claude", ".agents", ".pi", ".codex", ".gemini", ".opencode", ".hermes", ".automations"])
 
 function* walk(dir) {
   let entries

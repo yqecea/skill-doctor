@@ -1,12 +1,15 @@
 {
-  "name": "skill-doctor",
-  "version": "0.1.0",
-  "description": "Lint agent skill directories across harness layouts (.claude, .agents, .pi, .codex, .gemini, .opencode)",
+  "name": "@yqecea/skill-doctor",
+  "version": "0.2.0",
+  "description": "Lint agent skill directories across harness layouts (.claude, .agents, .pi, .codex, .gemini, .opencode, .hermes, .automations)",
   "type": "module",
   "bin": { "skill-doctor": "src/cli.mjs" },
+  "files": ["src", "action.yml"],
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "prepack": "node --test"
   },
+  "keywords": ["agent-skills", "claude-code", "codex", "opencode", "hermes", "lint", "skill-md"],
   "license": "MIT",
   "engines": { "node": ">=20" }
 }
