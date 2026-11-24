@@ -43,6 +43,7 @@ Measured on public skill corpora at the listed commit (v0.2.0):
 | [anthropics/skills](https://github.com/anthropics/skills) | 20 | 2 | `broken-link` in `skills/academy-guide` (a literal `URL` placeholder), `name-mismatch` in `template` |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 3 | 0 | clean; `.automations/` workflow skills are linted, the `.vc` build cache is skipped |
 | [chhoumann/t3-pstack](https://github.com/chhoumann/t3-pstack) | 66 | 0 | clean across `.claude`-style plugin layout |
+| [yqecea/gem-swarm](https://github.com/yqecea/gem-swarm) | 51 | 4 | `name-mismatch` x2, `broken-link` x2; all fixed upstream in [3845b3d](https://github.com/yqecea/gem-swarm/commit/3845b3d) |
 
 Reproduce with `node src/cli.mjs <path-to-clone>`.
 
